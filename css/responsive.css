@@ -1,0 +1,440 @@
+@media (max-width: 1699px) {
+    .b-promo .container{
+        padding: 0 30px;
+    }
+}
+@media (max-width: 1529px) {
+    .b-promo{
+        min-height: 500px;
+    }
+    .b-promo__content-title{
+        font-size: 70px;
+    }
+    .b-milestones .btn-next{
+        right: 5px;
+    }
+    .b-milestones .btn-prev{
+        left: 5px;
+    }
+}
+@media (max-width: 1459px) {
+    .b-blocks{
+        padding: 70px 0;
+    }
+    .b-about{
+        padding: 70px 0;
+    }
+    .b-impression{
+        padding: 70px 0;
+    }
+    .b-form{
+        padding: 70px 0;
+    }
+    .b-milestones ,
+    .b-team ,
+    .b-gallery{
+        padding: 70px 0;
+    }
+    .b-block p{
+        font-size: 18px;
+    }
+    .b-block__img img{
+        max-width: 120px;
+    }
+    .b-about__img{
+        width: 50%;
+    }
+    .b-title{
+        font-size: 38px;
+    }
+    p{
+        font-size: 17px;
+        margin: 0 0 15px 0;
+    }
+    .b-about__text{
+        padding: 30px 40px;
+    }
+    .b-impression__slider .swiper-wrapper {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .b-impression__slider-col{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .b-impression__item-wrap{
+        padding: 25px 15px;
+    }
+    .b-impression__item-name{
+        font-size: 18px;
+        margin: 0 0 10px 0;
+    }
+    .b-form__left{
+        width: 50%;
+        padding: 40px 50px;
+    }
+    .b-input {
+        margin: 0 0 30px 0;
+    }
+    .b-form__left .b-checkbox{
+        margin: 40px 0;
+    }
+    .b-angebote__text{
+        width: 50%;
+        margin-right: 50px;
+    }
+    .b-angebote__row{
+        padding: 0 40px;
+    }
+    .b-angebote{
+        padding: 70px 0;
+    }
+    .b-milestones .swiper-btn{
+        top: 105px;
+    }
+}
+@media (max-width: 1199px) {
+    .b-blocks{
+        padding: 40px 0;
+    }
+    .b-about {
+        padding: 50px 0;
+    }
+    .b-price{
+        margin: 50px 0;
+    }
+    .b-impression {
+        padding: 50px 0;
+    }
+    .b-reviews{
+        padding: 50px 0;
+    }
+    .b-form{
+        padding: 50px 0;
+    }
+    .b-verkaufen{
+        padding: 50px 0;
+    }
+    .b-milestones ,
+    .b-team ,
+    .b-gallery{
+        padding: 50px 0;
+    }
+
+    .b-promo__content-title {
+        font-size: 60px;
+    }
+    .b-about .container{
+        align-items: inherit;
+        align-content: flex-start;
+    }
+    .b-about__img img{
+        height: 100%;
+        object-fit: cover;
+    }
+    p{
+        font-size: 16px;
+    }
+    .b-about__text .b-btn{
+        margin: 15px 0 0 0;
+    }
+    .b-price__content{
+        padding: 50px 25px;
+    }
+    .b-title {
+        font-size: 34px;
+    }
+    .b-impression__slider-col{
+        width: 33.333333%;
+    }
+    .b-form__right{
+        padding: 15px 35px;
+    }
+    .b-footer__top .container{
+        flex-wrap: wrap;
+    }
+    .b-footer__col_form{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .b-footer__bottom {
+        margin: 50px 0 0 0;
+    }
+    .b-verkaufen-row-left{
+        width: 50%;
+        margin-right: 30px;
+    }
+    .b-verkaufen-row-left ul{
+        margin: 45px 0;
+    }
+    .b-verkaufen-row-left ul li a{
+        font-size: 19px;
+    }
+    .b-team__left{
+        width: 395px;
+    }
+    .b-team__nav-item_last img {
+        bottom: -30px;
+    }
+    .b-milestones .swiper-btn {
+        top: 96px;
+    }
+}
+@media (max-width: 991px) {
+    .b-promo__content-title{
+        font-size: 50px;
+    }
+    .b-title {
+        font-size: 31px;
+    }
+    .b-form__left{
+        padding: 35px 25px;
+    }
+    .b-form__right {
+        padding: 15px 20px;
+    }
+    .b-verkaufen__row{
+        display: block;
+    }
+    .b-verkaufen-row-left{
+        width: 100%;
+        margin: 0 0 30px 0;
+    }
+    .b-milestones__col{
+        width: 33.333333%;
+    }
+}
+@media (max-width: 767px) {
+    .b-promo {
+        min-height: 410px;
+    }
+    .b-promo__content-title{
+        font-size: 30px;
+    }
+    .b-logo{
+        max-width: 160px;
+    }
+    .b-promo__img{
+        max-width: 50%;
+    }
+    .b-blocks{
+        padding: 50px 0;
+    }
+    .b-blocks .row{
+        justify-content: center;
+    }
+    .b-blocks .row > div{
+        margin-bottom: 20px;
+    }
+    .b-blocks .row > div:last-child{
+        margin-bottom: 0px;
+    }
+    .b-about .container{
+        display: block;
+    }
+    .b-about__img{
+        width: 100%;
+    }
+    .b-about__img img{
+        margin: 0 auto 0;
+        width: auto;
+        height: auto;
+    }
+    .b-about__text{
+        padding: 25px 0 0 0;
+    }
+    .b-impression{
+        padding: 25px 0;
+    }
+    .b-about{
+        padding: 25px 0;
+    }
+    .b-price{
+        background: #141414;
+        margin: 25px 0;
+    }
+    .b-reviews{
+        padding: 25px 0;
+    }
+    .b-form{
+        padding: 25px 0;
+    }
+    .b-impression__slider-col{
+        width: 360px;
+    }
+    .b-form .container{
+        display: block;
+    }
+    .b-form__left{
+        width: 100%;
+        padding: 35px 15px;
+    }
+    .b-primary-btn{
+        font-size: 17px;
+    }
+    .b-form__right{
+        padding: 30px 0 0 0;
+    }
+    .b-title {
+        font-size: 24px;
+    }
+    .b-impression .b-title{
+        margin: 0 0 25px 0;
+    }
+    .b-price__content {
+        padding: 50px 0;
+    }
+    .b-angebote{
+        padding: 50px 0;
+    }
+    .b-footer{
+        padding: 50px 0 0 0;
+    }
+    .b-verkaufen-row-left ul li{
+        font-size: 18px;
+        line-height: 1.3;
+    }
+    .b-verkaufen-row-left ul li:not(:last-child) {
+        margin-bottom: 25px;
+    }
+    .b-angebote__row{
+        display: block;
+        padding: 0;
+    }
+    .b-angebote__text{
+        width: 100%;
+        margin: 0 0 50px 0;
+    }
+    .b-angebote__text:last-child{
+        margin: 0;
+    }
+    .main-text ul li{
+        padding: 0 0 0 35px;
+        line-height: 1.5;
+    }
+    .main-text ul li:before{
+        top: 6px;
+    }
+    .main-text ul li{
+        font-size: 17px;
+    }
+    .b-promo_center .b-promo__content {
+        padding-bottom: 100px;
+    }
+    .b-milestones__col{
+        width: 50%;
+    }
+    .b-team .container{
+        flex-direction: column;
+    }
+    .b-blocks__row{
+        flex-wrap: wrap;
+    }
+    .b-block{
+        width: 290px;
+        margin: 0 auto 30px;
+    }
+    .b-block:last-child{
+        margin: 0 auto 0;
+    }
+    .b-team__left{
+        width: 100%;
+        margin: 30px 0 0 0;
+    }
+    .b-milestones ,
+    .b-team ,
+    .b-gallery{
+        padding: 25px 0;
+    }
+    .b-team_title{
+        display: block;
+        order: 1;
+    }
+    .b-team__right{
+        order: 2;
+    }
+    .b-team__left .b-title{
+        display: none;
+    }
+    .b-team__left{
+        order: 3;
+    }
+    .b-milestones .swiper-btn {
+        top: 88px;
+    }
+    .b-gallery__label{
+        top: -1px;
+    }
+}
+
+
+
+@media (max-width: 533px) {
+    .b-footer__top .container{
+        display: block;
+    }
+    .b-footer__left{
+        margin: 0 0 35px 0;
+        max-width: 100%;
+        text-align: center;
+    }
+    .b-footer__reviews-bottom{
+        justify-content: center;
+    }
+    .b-footer__col:not(:last-child){
+        margin-bottom: 35px;
+    }
+    .b-footer__item{
+        width: 270px;
+        margin: 0 auto 12px;
+    }
+    .b-footer__title{
+        text-align: center;
+    }
+    .b-social ul{
+        justify-content: center;
+    }
+    .b-footer__left p{
+        margin-bottom: 27px;
+    }
+    .b-footer__bottom-wrap{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .b-footer__bottom-nav{
+        margin: 0 0 35px 0;
+    }
+    .b-footer__nav ul li a{
+        text-align: center;
+    }
+    .b-gallery > .container > .row > div{
+        margin-top: 20px;
+    }
+    .b-milestones__item p b{
+        font-size: 20px;
+    }
+}
+@media (max-width: 575px) {
+
+}
+@media (max-width: 510px) {
+
+}
+@media (max-width: 500px) {
+
+}
+@media (max-width: 460px) {
+
+}
+@media (max-width: 400px) {
+    .b-gallery__label{
+        font-size: 14px;
+        padding: 4px 5px;
+        left: 102%;
+        top: 1px;
+    }
+}
+@media (max-width: 374px) {
+
+}
